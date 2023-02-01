@@ -1,0 +1,247 @@
+nav{
+    
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.socme {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.h1{
+    
+    display: flex;
+    margin: 0px 100px 0px 100px;
+    justify-content: center;
+}
+
+.rub{
+  
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+.h1 img{
+    height: 400px;
+    width: 260px;
+    border: 1px s
+}
+
+.hp{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background-color: white;
+    border-radius: 6px;
+    width: 80px;
+    transition: 0.15s;
+    margin: 10px;
+
+}
+
+button:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+
+}
+
+.fotter {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+   
+    align-items: center;
+}
+    
+
+.fot-h1{
+    display: flex;
+   justify-content: center;
+   
+}
+.fot-p {
+    display: flex;
+    justify-content: center;
+}
+.chip-wrap {
+    display: flex;
+   
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+.react {
+    border: 1px solid rgb(253, 127, 127);
+    border-radius: 10px;
+    width: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.firebase {
+    border: 1px solid rgb(219, 155, 166);
+    border-radius: 10px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.npm {
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mongodb {
+    border: 1px solid rgb(110, 226, 56);
+    border-radius: 10px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.java {
+    border: 1px solid turquoise;
+    border-radius: 10px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type {
+    border: 1px solid rgb(228, 91, 228);
+    border-radius: 10px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.html {
+    border: 1px solid palegreen;
+    border-radius: 10px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.css {
+    border: 1px solid orange;
+    border-radius: 10px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj{
+    padding: 0px 20px;
+    
+
+}
+
+
+.cont{
+    margin: 40px auto;
+    height: 450px;
+    max-width: 975px;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 20px;
+}
+
+
+.text-cont{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    color: #E0F2FE;
+
+}
+
+.img-overlay {
+    position: absolute;
+    inset: 0;
+    background: #26262699;
+}
+
+
+    .img2{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+    .img-cont{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    
+
+
+.title{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 900;
+}
+
+.p-cont{
+    font-size: 14px;
+    margin-bottom: 12px;
+    max-width: 500px;
+}
+
+footer {
+    padding: 30px;
+    background: rgb(229, 231, 235);
+}
+
+.fotter-license {
+    text-align: center;
+    color: rgb(75, 85, 99);
+}
+
+.btn{
+    
+    border-radius: 6px;
+    transition: border-radius 150ms;
+    width: 128px;
+    padding: 8px 0px;
+    background: black;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    border-radius: 10px;
+
+}
